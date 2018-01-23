@@ -1,0 +1,428 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1141px;
+    }
+}
+
+// Extra large devices (large desktops, less than 1200px)
+@media (max-width: 1199px) { 
+    /**BANNER **/
+    .banner {
+
+      .bannerleft {
+
+          .logo {
+            top:-10px;
+          }
+
+          .logo2 {
+              right: -140px;
+              top:-33px;
+          }
+      }
+
+      .bannerright {
+          
+          .banner-search {
+
+          }
+
+          .banner-cart {
+              padding: 22px 0 0 30px;
+
+          }
+          .support {
+
+          }
+
+          .input-group {
+              width: 400px;
+              padding-left: 26%;
+
+              .form-control{
+
+              }
+
+              .btn {
+
+              }
+          }
+      }
+    }
+
+    /**BESTSELLER PRODUCT**/
+
+    .otherproduct {
+    .bestseller-product {
+
+      .bestseller-card {
+          padding: 15px 0;
+
+          .card {
+            margin-bottom: -1px;
+            border-radius: 0;
+            padding: 2px 0;
+
+            .card-body {
+
+              .bestseller-rating {
+                color: $color_rating;
+                  i {
+                    margin-right: 4px;
+                  }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+    /**NEWSLETTER**/
+    .newsletter {
+     
+
+      .newsletter-sns {
+
+      }
+
+      .newsletter-form {
+        
+
+        .newsletter-form-title {
+          
+
+          span {
+            
+          }
+        }
+
+        .newsletter-input {
+          .input-group {
+            .form-control{
+              width: 340px;
+
+            }
+
+            .input-group-append {
+              .btn {
+                
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /**FOOTER **/
+    .footer {
+
+      .footer-describe {
+        
+
+        p {
+          
+        }
+
+        span {
+          
+        }
+
+        i {
+          
+        }
+      }
+
+      .footer-padding-1 {
+        padding-left: 20px;
+      }
+
+      .footer-padding-2 {
+        margin-left: -20px;
+      }
+      
+      .footer-padding-3 {
+        margin-left: -21px;
+      }
+
+
+      .footer-title {
+        
+      }
+
+      .footer-tab {
+        
+        li {
+          
+          i {
+            
+          }
+        }
+      }
+    }
+}
+
+// Large devices (desktops, less than 992px) 
+@media (max-width: 991px) {
+    /**BANNER **/
+    .banner {
+
+      .bannerleft {
+
+          .logo {
+
+          }
+
+          .logo2 {
+              display: none;
+          }
+      }
+
+      .bannerright {
+          
+          .banner-search {
+
+          }
+
+          .banner-cart {
+            padding: 22px 0 0 10px;
+
+          }
+          .support {
+            padding-left: 52%;
+          }
+
+          .input-group {
+              width: 570px;
+              padding-left: 57%;
+
+              .form-control{
+
+              }
+
+              .btn {
+
+              }
+          }
+      }
+    }
+
+    /**NEWSLETTER**/
+    .newsletter {
+     
+
+      .newsletter-sns {
+
+      }
+
+      .newsletter-form {
+        flex-direction: column;
+
+        .newsletter-form-title {
+          padding-left: 0;
+          padding-bottom: 10px;
+
+          span {
+            display: inline;
+          }
+        }
+
+        .newsletter-input {
+          .input-group {
+            .form-control{
+              width: 200px;
+
+            }
+
+            .input-group-append {
+              .btn {
+                
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /**FOOTER **/
+    .footer {
+
+
+      .footer-describe {
+        padding-bottom: 5px;
+
+        p {
+
+        }
+
+        span {
+
+        }
+
+        i {
+
+        }
+      }
+
+      .footer-padding-1 {
+        padding-left: 0;
+      }
+
+      .footer-padding-2 {
+        margin-left: 0;
+      }
+      
+      .footer-padding-3 {
+        margin-left: 0;
+      }
+
+
+      .footer-title {
+
+      }
+
+      .footer-tab {
+        li {
+
+          i {
+          }
+        }
+      }
+    }
+
+    /**ADS **/
+    .ads {
+        padding-top: 15px;
+
+        .ads-wrapper {
+
+            .ads-title {
+                font-size: 25px;
+                padding: 5px 44px;
+                margin: 12px 15px;
+
+                span {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+ 
+
+
+}
+
+// Medium devices (tablets, less than 768px) 
+@media (max-width: 767px) {
+    .banner {
+
+      .bannerleft {
+
+          .logo {
+              top: -15px;
+          }
+
+          .logo2 {
+              right: -60px;
+              top: -35px;
+          }
+      }
+
+      .bannerright {
+          
+          .banner-search {
+          }
+
+          .banner-cart {
+              padding: 22px 0 0 22px;
+          }
+          .support {
+              display: none;
+          }
+          .input-group {
+              width: 510px;
+              padding-left: 118px;
+              margin-top: 10px;
+
+              .form-control{
+                  border-top-left-radius: 50px;
+                  border-bottom-left-radius: 50px;
+                  padding: 10px 33px;
+              }
+          }
+      }
+    }
+
+    /**NEWSLETTER**/
+    .newsletter {
+      font-size: 13px;
+     
+
+      .newsletter-sns {
+
+      }
+
+      .newsletter-form {
+        flex-direction: column;
+
+        .newsletter-form-title {
+          padding-left: 0;
+          padding-bottom: 10px;
+
+          span {
+            display: inline;
+          }
+        }
+
+        .newsletter-input {
+          .input-group {
+            .form-control{
+              width: 150px;
+
+            }
+
+            .input-group-append {
+              .btn {
+                
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /**ADS **/
+    .ads {
+        padding-top: 15px;
+
+        .ads-wrapper {
+
+            .ads-title {
+                font-size: 25px;
+                padding: 5px 44px;
+                margin: 12px 15px;
+
+                span {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+ 
+}
+
+
+// Small devices (landscape phones, less than 576px)
+@media (max-width: 575px) { 
+ 
+}
+
+@media (max-width: 375px) { 
+  
+}
+
+@media (max-width: 320px) { 
+ 
+}
+
+
